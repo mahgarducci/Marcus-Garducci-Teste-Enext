@@ -1,0 +1,115 @@
+/* HEADER */
+
+/* Changing the font of header and giving a space over the top */
+header {
+	font-family: 'Oswald', sans-serif;
+	padding-top: 30px;
+
+}
+
+/* Coloring the Company Name */
+.company-name > strong {
+	color: red;
+	font-size: 1.5em;
+}
+
+.company-name > span {
+	color: #f66;
+	font-size: 1.5em;
+} /* End of coloing Company Name */
+
+.search-field {
+	padding-top: 16px;
+}
+
+.search-field > input {
+	border-radius: 5px 5px 5px 5px;
+	width: 90%;
+}
+
+.shipping {
+	font-style: italic;
+	color: red;
+}
+
+.bag {
+	padding-top: 10px;
+}
+
+/* The navbar with all dropdows */
+.navbar {
+	background-color: #3B004D;
+}
+
+.navbar > li {
+	padding-left: 50px;
+}
+
+.sign-menu {
+	padding-left: 100px;
+	padding-top: 9px;
+}
+
+.sign-menu > p > a {
+	text-decoration: none;
+}
+
+
+h1 {
+	padding: 35px 0px 60px 100px;
+	font-size: 18px;
+}
+
+/* The products */
+.thumbnails {
+	padding-left: 5%;
+}
+
+.thumbnails > img {
+	max-width: 300px;
+	max-height: 300px;
+	border: none;
+}
+
+.thumbnails > strong > p {
+	text-align: center;
+
+}
+
+/* FOOTER */
+
+footer {
+	background-color: lightgrey;
+}
+
+/* Links at the footer came with 'bullets', here I'm exclude then */
+.footer-links > ul {
+	list-style: none;
+	display: inline-block
+}
+
+.footer-links > ul > li > a { 
+	color: red;
+
+}
+
+/* Links active still in the same color of normal links */
+.footer-links > ul > li > a:active { 
+	color: red;
+
+}
+
+.footer-icons {
+	display: inline-block;
+	padding-left: 4%;
+}
+
+.navbar {
+	list-style: none;
+}
+
+.navbar > li > a {
+	color: white;
+	font-style: italic;
+	text-decoration: none;
+}
